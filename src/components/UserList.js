@@ -15,7 +15,7 @@ useEffect(()=>{
 },[])
 
 if(loading){
-    <p>Loading...</p>
+    <div>Loading...</div>
 }
   return (
     <div>
