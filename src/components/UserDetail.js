@@ -14,7 +14,7 @@ const UserDetail = () => {
     },[id]);
 
       if (loading) {
-        <div>Loading...</div>
+      return  <div>Loading...</div>
   }
   return (
     <div>
